@@ -1,40 +1,36 @@
 import React from "react";
-import { BsLinkedin, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 function Footer() {
   const data = [
     {
-      type: "Product",
+      type: "Frontend",
       subTypes: [
-        "Landing Page",
-        "Features",
-        "Documentation",
-        "Referral Program",
-        "Pricing",
+        "Html",
+        "Css",
+        "JavaScript",
+        "React",
+       
       ],
     },
     {
-      type: "Services",
+      type: "Backend",
       subTypes: [
-        "Documentation",
-        "Design",
-        "Themes",
-        "Illustrations",
-        "UI Kit",
+        "NodeJS",
+        "ExpressJS",
+        "MongDB",
+        "MySql",
       ],
     },
     {
       type: "Company",
-      subTypes: ["About", "Terms", "Privacy Policy", "Careers"],
+      subTypes: ["About", "Terms"],
     },
     {
       type: "More",
-      subTypes: ["Documentation", "License", "Changelog"],
+      subTypes: ["Documentation", "Information"],
     },
   ];
-  const socialLinks = [
-    <BsTwitter />,
-    <BsLinkedin />,
-  ];
+
   return (
     <footer className="py-3 mx-3">
       <div className="brand-container">
@@ -43,14 +39,13 @@ function Footer() {
           <span className="dot">.</span>
         </div>
         <p className="description">
-          Build a modern and creative website with crealand
+        thiernobarry554@gmail.com
+        </p>
+        <p className="description">
+        04 66 24 01 03
         </p>
 
-        <ul className="social-links">
-          {socialLinks.map((link, index) => (
-            <li key={index}>{link}</li>
-          ))}
-        </ul>
+      
       </div>
       <div className="links">
         {data.map(({ type, subTypes }, index) => {
@@ -60,7 +55,7 @@ function Footer() {
               <ul>
                 {subTypes.map((type, index) => (
                   <li key={index}>
-                    <a href="#">{type}</a>
+                    <Link to="/">{type}</Link>
                   </li>
                 ))}
               </ul>

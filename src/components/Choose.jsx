@@ -1,43 +1,47 @@
 import React from "react";
-import choose from "../assets/choose.png";
-import choose1 from "../assets/choose1.png";
-import choose2 from "../assets/choose2.png";
-import choose3 from "../assets/choose3.png";
-import choose4 from "../assets/choose4.png";
+import choose from "../images/undraw_going_up_re_86kg.svg";
+import choose1 from "../images/green-and-white-stripe-sphere.png";
+import choose2 from "../images/logo-search-grid-desktop (1).png";
+import choose3 from "../images/logo.png";
+import choose4 from "../images/logo-search-grid-desktop.png";
 
 function Chooseus() {
   const data = [
     {
       image: choose1,
-      title: "Have Most Stock",
-      description: "We have many stock until next year to supply you needs.",
+      title: "PERSONAL STYLE",
+      description: "Producing quality work is a priority for me",
     },
     {
       image: choose2,
-      title: "100% Secure",
-      description:
-        "You don't need to worry when transaction is on our platform now.",
+      title: "I COULD BE MORE EFFECTIVE",
+      description: " I listen to ideas, suggestions and comments",
     },
     {
       image: choose3,
-      title: "24/7 Support",
-      description: "If any problem use our platform you cantact use free.",
+      title: "MY WAY OF MANAGING MY ENERGY",
+      description:
+        " I channel my energy into finding my bearings and establishing reliable benchmarks.",
     },
     {
       image: choose4,
-      title: "Free Delivery",
+      title: "PROBLEMS I CAN HANDLE",
       description:
-        "Wherever you are, we make sure you get free delivery service.",
+        "Brilliant from an intellectual point of view, I tend to easily adapt concepts that were initially foreign.",
     },
   ];
   return (
     <div className="choose-us-container mx-3 py-3">
       <div className="container">
         <div className="title-container">
-          <h2>Why Choose us than others?</h2>
+          <h2>Why this blog ?</h2>
           <p>
-            Many reasons why customer choose us than other ecommerce. We have
-            some plus point that maybe other can't have.
+            This blog was created to share my experiences in the world of
+            technology and my experience as a junior web developer. Learn best
+            practices and develop my skills. Basically, you will find
+            information about my extensive skills needed as a web developer. I
+            try, as far as possible, to bring something concrete from my daily
+            life.
           </p>
         </div>
         <div className="content">

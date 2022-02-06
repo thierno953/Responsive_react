@@ -22,11 +22,6 @@
         border: 0.1rem solid var(--blue);
         font-weight: bolder;
         transition: var(--transition);
-        &:hover {
-          background-color: var(--dark-blue);
-          color: var(--background);
-          border-color: var(--background);
-        }
       }
     }
     .products {
@@ -51,27 +46,8 @@
         }
         h4 {
           color: var(--dark-blue);
-        }
-        hr {
-          height: 0.2rem;
-          width: 80%;
-          background-color: var(--dark-blue);
-        }
-        .processor,
-        .os {
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
-          justify-content: center;
-          align-items: center;
-          p {
-            color: var(--light-blue);
-          }
-        }
-        svg {
-          color: var(--ocean-blue);
-          font-size: 2rem;
-        }
+        } 
+    
       }
     }
   }

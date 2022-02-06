@@ -1,27 +1,27 @@
 import React from "react";
 import { HiArrowSmRight } from "react-icons/hi";
-import service1 from "../assets/service1.png";
-import service2 from "../assets/service2.png";
-import service3 from "../assets/service3.png";
-import service4 from "../assets/service4.png";
-
+import service1 from "../images/logo-search-grid-desktop.png";
+import service2 from "../images/logo-search-grid-desktop.png";
+import service3 from "../images/logo-search-grid-desktop (1).png";
+import service4 from "../images/logo.png";
 function Services() {
   return (
     <div className="services-container mx-3 py-3">
       <div className="container">
         <div className="service one">
-          <p>Weekly Deals</p>
-          <h4>Free Delivery</h4>
-          <button>Learn More</button>
-          <div className="image">
+        <div className="image">
             <img src={service1} alt="service" />
           </div>
+          <h4>Frontend</h4>
+          <p> Html & Css</p>
+          <button>Learn More</button>
+         
         </div>
         <div className="service two">
           <div className="content">
-            <h4>Disc Up to 25%</h4>
+            <h4>Frontend</h4>
             <p>
-              Learn More <HiArrowSmRight />
+              React <HiArrowSmRight />
             </p>
           </div>
           <div className="image">
@@ -33,17 +33,17 @@ function Services() {
             <img src={service3} alt="service" />
           </div>
           <div className="content">
-            <h4>Free 5GB Data</h4>
+            <h4>Backend</h4>
             <p>
-              Learn More <HiArrowSmRight />
+              NodeJS <HiArrowSmRight />
             </p>
           </div>
         </div>
         <div className="service four">
-          <p>EhyaVersarry Monthly Deals</p>
-          <h4>Free Delivery</h4>
+        <h4>Backend</h4>
+          <p>ExpressJS</p>
           <p>
-            Learn More <HiArrowSmRight />
+            MongoDB && Sql <HiArrowSmRight />
           </p>
           <div className="image">
             <img src={service4} alt="service" />

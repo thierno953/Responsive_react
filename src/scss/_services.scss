@@ -14,9 +14,6 @@
       gap: 1rem;
       transition: var(--transition);
       text-align: center;
-      &:hover {
-        box-shadow: var(--elevate-shadow);
-      }
       .content {
         display: flex;
         flex-direction: column;

@@ -1,54 +1,46 @@
 import React from "react";
-import category1 from "../assets/category1.png";
-import category2 from "../assets/category2.png";
-import category3 from "../assets/category3.png";
-import category4 from "../assets/category4.png";
-import category5 from "../assets/category5.png";
-import category6 from "../assets/category6.png";
-import category7 from "../assets/category7.png";
-import category8 from "../assets/category8.png";
+import category1 from "../images/green-and-white-stripe-sphere.png";
+import category2 from "../images/logo-search-grid-desktop (1).png";
+import category3 from "../images/logo-search-grid-desktop.png";
+import category4 from "../images/logo.png";
+import category5 from "../images/green-and-white-stripe-sphere.png";
+import category6 from  "../images/logo.png";
+import category7 from "../images/logo-search-grid-desktop.png";
+import category8 from "../images/logo-search-grid-desktop (1).png";
 
 function Categories() {
   const categories = [
     {
       image: category1,
-      title: "Fashion",
-      description: "290K Items",
+      title: "Html",
     },
     {
       image: category2,
-      title: "Headphone",
-      description: "3M Items",
+      title: "Css",
     },
     {
       image: category3,
-      title: "Laptop",
-      description: "1.2M Items",
+      title: "JavaScript",
     },
     {
       image: category4,
-      title: "Music",
-      description: "751K Items",
+      title: "React",
     },
     {
       image: category5,
-      title: "Photography",
-      description: "1.0M Items",
+      title: "NodeJS",
     },
     {
       image: category6,
-      title: "Furniture",
-      description: "88K Items",
+      title: "ExpressJS",
     },
     {
       image: category7,
-      title: "Health",
-      description: "761K Items",
+      title: "MongoBD",
     },
     {
       image: category8,
-      title: "Sports",
-      description: "2.9K Items",
+      title: "MySql",
     },
   ];
 
@@ -64,7 +56,6 @@ function Categories() {
               <div className="category" key={index}>
                 <img src={image} alt="Category" />
                 <h4>{title}</h4>
-                <p>{description}</p>
               </div>
             );
           })}

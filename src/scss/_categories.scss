@@ -27,14 +27,9 @@
         background-color: var(--card-color2);
         box-shadow: var(--fixed-shadow);
         transition: var(--transition);
-        &:hover {
-          box-shadow: var(--elevate-shadow);
-        }
+      
         h4 {
           color: var(--dark-blue);
-        }
-        p {
-          color: var(--light-blue);
         }
       }
     }

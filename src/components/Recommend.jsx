@@ -1,26 +1,26 @@
 import React from "react";
-import recommend1 from "../assets/recommend1.jpg";
-import recommend2 from "../assets/recommend2.jpg";
-import recommend3 from "../assets/recommend3.jpeg";
-import recommend4 from "../assets/recommend4.jpg";
+import recommend1 from "../images/undraw_going_up_re_86kg.svg";
+import recommend2 from "../images/undraw_in_the_office_re_jtgc.svg";
+import recommend3 from "../images/undraw_interview_re_e5jn.svg";
+import recommend4 from "../images/undraw_mobile_development_re_wwsn.svg";
 
 function Recommend() {
   const data = [
     {
       image: recommend1,
-      text: "The best Anti Aging Cream with cheap price",
+      text: "I like to develop my ideas.",
     },
     {
       image: recommend2,
-      text: "Best budget Headphone for RPG Gamers",
+      text: "I like to develop my ideas, work in a team and I always try to bring my points of view.",
     },
     {
       image: recommend3,
-      text: "Have a much project? You must have this Savage Laptop",
+      text: "Always passionate about the web.",
     },
     {
       image: recommend4,
-      text: "Bored work from home. You can make juice for your health",
+      text: "je souhaite mettre mes compétences au service d'une entreprise à la culture innovante.",
     },
   ];
 
@@ -28,7 +28,7 @@ function Recommend() {
     <div className="recommend-container mx-3 py-3">
       <div className="container">
         <div className="title-container">
-          <h2>Recommended for You</h2>
+          <h2>Team working</h2>
         </div>
         <div className="categories">
           {data.map(({ image, text }, index) => {

@@ -1,19 +1,18 @@
 import React from "react";
-import promo from "../assets/promo.png";
+import promo from "../images/undraw_going_up_re_86kg.svg";
 function Promo() {
   return (
     <div className="promo-container">
       <div className="container mx-3 py-3">
         <div className="content">
           <div className="title-container">
-            <h2>Never Miss a Promo</h2>
+            <h2>Enter your e-mail</h2>
             <p>
-              We always give our customers a promo for being loyal to us. Just
-              subscribe to us:)
+            I always give customers a promotion for their loyalty. Just subscribe 
             </p>
           </div>
           <div className="subscribe-container">
-            <input type="email" placeholder="yourname@mail.com" />
+            <input type="email" placeholder="Email@gmail.com" />
             <button>Subscribe</button>
           </div>
         </div>
