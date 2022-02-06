@@ -41,6 +41,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+
 }
 
 .app {
@@ -79,7 +80,7 @@ ul {
   html,
   body,
   .app {
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
   }
 

@@ -1,9 +1,9 @@
 import React from "react";
 import choose from "../images/undraw_going_up_re_86kg.svg";
-import choose1 from "../images/green-and-white-stripe-sphere.png";
-import choose2 from "../images/logo-search-grid-desktop (1).png";
-import choose3 from "../images/logo.png";
-import choose4 from "../images/logo-search-grid-desktop.png";
+import choose1 from "../images/choose1.png";
+import choose2 from "../images/choose2.png";
+import choose3 from "../images/choose3.png";
+import choose4 from "../images/choose4.png";
 
 function Chooseus() {
   const data = [
